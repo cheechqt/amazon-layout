@@ -1,18 +1,14 @@
-import Navbar from "./components/Navbar";
-import Add from "./components/Add";
+import { Hero, Add, Navbar, Products, Deals, Footer } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
       <Add />
-      {/* <Hero/> */}
-      {/* <Products/> */}
-      {/* <Deals/> */}
-      {/* <Footer/> */}
-      <div className="bg-gray-700 h-screen">
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </div>
+      <Hero />
+      <Products />
+      <Deals />
+      <Footer />
     </>
   );
 }

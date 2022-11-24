@@ -3,8 +3,7 @@ import { FiSearch } from "react-icons/fi";
 import { GoSettings } from "react-icons/go";
 import { BiWorld } from "react-icons/bi";
 import { TiArrowRepeat } from "react-icons/ti";
-import logo from "../assets/logo.png";
-import usa from "../assets/usa.png";
+import { usa, logo } from "../assets";
 
 const Navbar = () => {
   return (
@@ -42,7 +41,7 @@ const Navbar = () => {
 
       <div className="relative flex-center text-white text-[28px] ">
         <BsCart2 />
-        <div className="absolute text-[16px] h-full -top-3.5 right-2 text-orange-400">
+        <div className="absolute text-xs h-full -top-[6.5px] right-2 text-orange-400">
           <p>0</p>
         </div>
       </div>

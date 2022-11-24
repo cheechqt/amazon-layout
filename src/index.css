@@ -10,7 +10,12 @@
     @apply flex items-center justify-between;
   }
   .gradient {
-    @apply bg-[#020024] bg-gradient-to-b from-[rgba(2,0,36,0) / 0.62] to-[rgba(234,237,237,1) / 0.91];
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 0) 62%,
+      rgba(234, 237, 237, 1) 91%
+    );
   }
 }
 
